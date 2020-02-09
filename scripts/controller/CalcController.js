@@ -92,7 +92,7 @@ class CalcController {
 
         if (last == '%') {
 
-            result /= 100;
+            result /= 10;
             this._operation = [result];
 
         } else {
